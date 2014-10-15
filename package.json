@@ -1,0 +1,27 @@
+{
+  "name": "brian-says",
+  "version": "0.0.1",
+  "description": "Brian will shout anything you ask!",
+  "main": "brian-says.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha test/*.spec.js"
+  },
+  "keywords": [
+    "brian",
+    "blessed",
+    "uppercase"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ihuntington/brian-says.git"
+  },
+  "author": "Ian Huntington",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "1.9.2",
+    "mocha": "1.21.5"
+  }
+}
